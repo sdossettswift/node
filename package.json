@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/sdossettswift/node/issues"
   },
-  "homepage": "https://github.com/sdossettswift/node#readme"
+  "homepage": "https://github.com/sdossettswift/node#readme",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
 }
